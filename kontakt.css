@@ -1,0 +1,112 @@
+
+
+.banner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; 
+}
+
+
+.left-heading {
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  
+    
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+
+.sub-banner {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+    margin-top: 20px; 
+}
+
+.sub-text {
+    font-size: 14px;
+    display: block;
+    color: black; 
+    text-align: center; 
+    margin-top: auto; 
+}
+
+.sub-banner {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    margin-top: 20px; 
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-form,
+.contact-info {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto; 
+    border: 10px solid pink;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 5px;
+    justify-content: center; 
+}
+
+.contact-info p {
+    margin: 10px 0;
+    text-align: center; 
+}
+
+.contact-form button {
+    background-color: pink; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+}
+
+.contact-form button:hover {
+    background-color: grey; 
+}
+
+.contact-form,
+.contact-info {
+    text-align: center; 
+    margin: 0 auto; 
+}
+

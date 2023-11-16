@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; 
+}
+
+
+.left-heading {
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  
+    
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.sub-banner {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+    margin-top: 20px; 
+}
+
+.sub-text {
+    font-size: 14px; 
+    display: block; 
+    color: black; 
+    text-align: center; 
+    margin-top: auto; 
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 48%;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+
+.image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    top: 70%; 
+    left: 10px;
+    color: black;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px; 
+    transform: translateY(-50%); 
+}
+
+.image a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 1px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image a:hover {
+    transform: scale(1.05);
+}
+

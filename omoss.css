@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.banner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; 
+}
+
+
+.left-heading {
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  
+    
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+
+.sub-banner {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+    margin-top: 20px; 
+}
+
+.sub-text {
+    font-size: 14px;
+    display: block; 
+    color: black;
+    text-align: center; 
+    margin-top: auto; 
+}
+
+.contact-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}

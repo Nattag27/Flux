@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logga in/bli medlem</title>
+    <link rel="stylesheet" type="text/css" href="loggain.css">
+</head>
+<body>
+    <div class="banner">
+        <h1 class="left-heading">fLuX</h1>
+        <div class="menu">
+            <a href="index.html">Start</a>
+            <a href="kontakt.html">Kontakta oss</a>
+            <a href="omoss.html">Om oss</a>
+            <a href="halsband.html">Våra halsband</a>
+        </div>
+    </div>
+
+    <form id="loginForm">
+        <label id="formLabel" for="username">Logga in</label>
+        <div class="input-container">
+            <input type="text" id="username" name="username" required>
+            <label for="password">Lösenord:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="button-container">
+            <button id="toggleFormButton" onclick="toggleForm()">Bli medlem</button>
+            <button id="loginButton" onclick="login()">Logga in</button>
+        </div>
+
+       
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; 
+}
+
+
+.left-heading {
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  
+    
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.sub-banner {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+    margin-top: 20px; 
+}
+
+.sub-text {
+    font-size: 14px; 
+    display: block;
+    color: black;
+    text-align: center;
+    margin-top: auto; 
+}
+
+.moving-text {
+    position: absolute;
+    animation: moveText 30s linear infinite; 
+    animation-timing-function: ease-in-out; 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    transform: translateX(0);
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(600%);
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+
+.image-container img {
+    width: 32%;
+    height: auto; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative; 
+}
+
+.membership-info {
+    width: 48%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px; 
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.membership-info h2 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.membership-info p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.membership-info button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 50px; 
+}
+
+
+.membership-info button:hover {
+    background-color: grey;
+}
+
+.membership-info button:hover {
+    background-color: grey;
+}
+
+
+.video-container {
+    width: 50%; 
+    margin-top: 20px;
+}
+
+
+.video-container video {
+    width: 100%; 
+    height: auto; 
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta oss</title>
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
+</head>
+<body>
+    <div class="banner">
+        <h1 class="left-heading">fLuX</h1>
+        <div class="menu">
+            <a href="index.html">Start</a>
+            <a href="omoss.html">Om oss</a>
+            <a href="halsband.html">Våra halsband</a>
+            <a href="loggain.html">Logga in/Bli medlem</a>
+        </div>
+    </div>
+    <div class="contact-container">
+        <h2>Kontakta oss</h2>
+        
+    <div class="contact-form">
+        <h2>Fyll i formuläret nedan</h2>
+        <form action="process_form.php" method="post">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-postadress:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Ämne:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Ditt meddelande:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Skicka</button>
+        </form>
+    </div>
+
+    <div class="contact-info">
+        <h2>Kontaktinformation</h2>
+        <p><strong>E-post:</strong> flux@help.com</p>
+        <p><strong>Telefon:</strong> 123-456-7890</p>
+        <p><strong>Adress:</strong> Hamngatan 13, Stockholm</p>
+    </div>
+
+  
+</body>
+</html>

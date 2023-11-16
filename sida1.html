@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blåa Kristallen</title>
+    <link rel="stylesheet" type="text/css" href="sida1.css">
+</head>
+
+<body>
+
+    <div class="banner">
+        <h1 class="left-heading">fLuX</h1>
+        <div class="menu">
+            <a href="halsband.html">Tillbaka</a>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <img src="https://media.nelly.com/i/nlyscandinavia/084680-1892_20?fmt=webp&qlt=default&w=1040&h=1387&sm=c" alt="Produktbild">
+        <div class="product-details">
+            <h2>Blå kristall</h2>
+            <p> Klassisk design med en droppformad kristall </p>
+            <p>Mått sten: 8 x 5 mm</p>
+            <p>Kedjan är 45- 50 cm lång</p>
+            <p>Pris 1000kr</p>
+            <div class="product-container">
+                <button id="addToCartBtn" onclick="addToCart()">Lägg till i Varukorgen</button>
+                <button class="remove-from-cart-btn" onclick="removeFromCart()">Ta bort från Varukorgen</button>
+            </div>
+            <form>
+                <fieldset class="rating">
+                    <legend>Betyg:</legend>
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
