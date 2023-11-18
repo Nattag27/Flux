@@ -1,0 +1,27 @@
+
+.checkoutImage {
+    width: 200px; /* Justera detta värde för att ändra bredden och göra bilden större */
+    height: auto; /* Håller proportionerna så att bilden inte blir snedvriden */
+}
+
+#buyButton {
+    background-color: pink; /* Ändra färgen efter behov */
+    color: white; /* Textfärgen på knappen */
+    padding: 10px 20px; /* Justera kudden för att öka knappens storlek */
+    border: none; /* Ta bort kantlinjen */
+    cursor: pointer;
+}
+
+#buyButton:hover {
+    background-color: grey; /* Färg vid hovring över knappen */
+}
+
+#buyButton {
+    /* Övriga stilar ... */
+    border-radius: 20px; /* Justera detta värde för att ändra rundheten */
+}
+
+#buyButton:hover {
+    /* Övriga stilar ... */
+    border-radius: 20px; /* Samma rundhet vid hovring över knappen */
+}
