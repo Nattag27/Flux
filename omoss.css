@@ -51,50 +51,28 @@ body {
 }
 
 
-#aboutUs h2 {
-    text-align: center;
-}
-
 #aboutUsContainer {
-    max-width: 800px;
-    margin: auto;
+    text-align: center;
     padding: 20px;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Justera detta för önskad avstånd över knappen */
+#aboutUs {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 #designersButton {
-    background-color: pink;
-    color: black;
+    display: block;
+    margin: 20px auto; /* Centera knappen horisontellt */
     padding: 10px 20px;
-    font-size: 16px;
+    background-color: pink; /* Rosa bakgrundsfärg */
     border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
     cursor: pointer;
-    border-radius: 50%;
 }
 
-#designersButton:hover {
-    background-color: lightpink;
-}.button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Justera detta för önskad avstånd över knappen */
-}
-
-#designersButton {
-    background-color: pink;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-#designersButton:hover {
-    background-color: gray
+#designersButton:active {
+    background-color: gray; /* Grå bakgrundsfärg när knappen är aktiv (klickad) */
 }
