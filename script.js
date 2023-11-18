@@ -130,3 +130,8 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error('Could not find checkoutCartCountElement or storedCartCount is null.');
     }
 });
+
+document.getElementById('designersButton').addEventListener('click', function() {
+    window.location.href = 'https://flux56.wordpress.com/vara-designers';
+});
+
