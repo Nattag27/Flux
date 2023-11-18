@@ -142,3 +142,14 @@ button {
 button:hover {
     background-color:grey; 
 }
+
+
+#kundvagn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: pink;
+    color: #fff;
+    cursor: pointer;
+}
